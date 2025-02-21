@@ -1,0 +1,12 @@
+# Python
+*.pyc
+*.pyo
+__pycache__/
+venv/
+.env
+
+# Streamlit
+.streamlit/cache/
+
+# OS
+.DS_Store
