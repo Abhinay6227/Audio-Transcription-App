@@ -2,7 +2,7 @@
 from fastapi import APIRouter, HTTPException, Query
 from fastapi.responses import JSONResponse
 from typing import Optional
-from utils import load_summarization_pipeline, load_keybert_model
+from fastapi_backend.utils import load_summarization_pipeline, load_keybert_model
 
 router = APIRouter()
 summarizer = load_summarization_pipeline()

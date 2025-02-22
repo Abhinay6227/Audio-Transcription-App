@@ -3,7 +3,9 @@ from fastapi import APIRouter, UploadFile, File
 from fastapi.responses import JSONResponse
 import tempfile
 import os
-from utils import load_whisper_model
+#from utils import load_whisper_model
+from fastapi_backend.utils import load_whisper_model
+
 
 router = APIRouter()
 model = load_whisper_model()
