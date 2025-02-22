@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import transcribe, analyze  # Import
+#from routes import transcribe, analyze  # Import
 from utils import load_whisper_model  # Import the function
 from fastapi.middleware.cors import CORSMiddleware  # Import CORS
 import os
