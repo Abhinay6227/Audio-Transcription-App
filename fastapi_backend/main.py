@@ -3,6 +3,8 @@ from routes import transcribe, analyze  # Import
 from utils import load_whisper_model  # Import the function
 from fastapi.middleware.cors import CORSMiddleware  # Import CORS
 import os
+from fastapi_backend.routes import transcribe, analyze
+
 
 # Initialize FastAPI app
 app = FastAPI()
